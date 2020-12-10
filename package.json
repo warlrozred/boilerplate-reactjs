@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate-reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "concurrently \"npm start\" \"npm --prefix ./client run start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warlrozred/boilerplate-reactjs.git"
+  },
+  "author": "Jomael Gemota",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warlrozred/boilerplate-reactjs/issues"
+  },
+  "homepage": "https://github.com/warlrozred/boilerplate-reactjs#readme",
+  "dependencies": {
+    "ckey": "^1.0.2",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1"
+  }
+}
